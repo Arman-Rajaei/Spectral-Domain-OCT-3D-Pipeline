@@ -1,11 +1,13 @@
 # Spectral-Domain OCT 3D Pipeline
 
-This repository implements a **full spectral-domain OCT processing pipeline** for **B-scan reconstruction and 3D volume formation**.  
-The pipeline covers both **2D (B-scan level)** and **3D (volume level)** processing, including dispersion compensation, coherent averaging, motion correction, and tilt correction.
+This repository presents a **complete spectral-domain OCT processing pipeline** for **B-scan reconstruction and 3D volume formation**.  
+The workflow spans both **2D (B-scan level)** and **3D (volume-level)** processing stages, including dispersion compensation, coherent averaging, motion correction, and tilt correction.
 
-The focus of this project is on **signal-processing correctness, physical interpretation, and volume consistency**, rather than hardware-specific acquisition details.  
-A more detailed technical description of the pipeline, including mathematical background and design rationale, is provided in the accompanying **`OCT Pipeline.pdf`**.
+The emphasis of this project is on **signal-processing rigor, physical interpretability, and volumetric consistency**, rather than hardware-specific acquisition details.  
+A detailed technical description of the methodology, mathematical foundations, and system design is provided in the accompanying **`OCT_Pipeline.pdf`**.
 
+> **Note:** The full implementation is maintained in a private research repository.  
+> This public repository documents the system architecture, processing strategy, and representative results.
 ---
 
 ## Pipeline Overview
